@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "k8sbackup"
+version = "0.1.0"
+description = ""
+authors = ["nil-scan <nilscan31@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kopf = "^1.37.2"
+pyyaml = "^6.0.2"
+kubernetes = "^30.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

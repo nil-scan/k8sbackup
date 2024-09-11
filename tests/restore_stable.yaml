@@ -1,0 +1,7 @@
+apiVersion: k8sbackup.dev/v1
+kind: RestoreJob
+metadata:
+  namespace: k8s-backup
+  name: restore-stable
+spec:
+  gitRef: stable
